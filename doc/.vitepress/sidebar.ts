@@ -6,9 +6,30 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: 'Introdução',
       link: '/introducao'
     },
+
+    {
+      text: 'Raças',
+      link: '/racas/',
+      collapsed: true,
+      items: [
+        { text: 'Anão', link: '/racas/anao' },
+        { text: 'Bestial', link: '/racas/bestial' },
+        { text: 'Draconato', link: '/racas/draconato' },
+        { text: 'Elfo', link: '/racas/elfo' },
+        { text: 'Fada', link: '/racas/fada' },
+        { text: 'Humano', link: '/racas/humano' },
+        { text: 'Meio-Elfo', link: '/racas/meio-elfo' },
+        { text: 'Meio-Golem', link: '/racas/meio-golem' },
+        { text: 'Meio-Orc', link: '/racas/meio-orc' },
+        { text: 'Meio-Slime', link: '/racas/meio-slime' },
+        { text: 'Orc', link: '/racas/orc' },
+        { text: 'Tiefling', link: '/racas/tiefling' }
+      ]
+    },
     {
       text: 'Classes',
-      collapsed: false,
+      link: '/classes/',
+      collapsed: true,
       items:
         [
           {
