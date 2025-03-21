@@ -10,7 +10,7 @@ hero:
     alt: "Logo do CDNE"
   actions:
     - theme: brand
-      text: Aventurar-se
+      text: Explorar
       link: /introducao
       class: vp-button 
   
