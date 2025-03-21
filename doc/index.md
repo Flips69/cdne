@@ -8,11 +8,11 @@ hero:
   image:
     src: /images/fotor.png
     alt: "Logo do CDNE"
-
   actions:
     - theme: brand
       text: Aventurar-se
       link: /introducao
+      class: vp-button 
   
 
 features:
